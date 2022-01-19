@@ -2,12 +2,11 @@ import React, { useState } from "react";
 
 const Blog = () => {
   return (
-    <section className="kaif-one">
-      <section className="banner-one" id="banner">
-                <span className="banner-one__shape-1"></span>
-                <span className="banner-one__shape-2"></span>
-                <span className="banner-one__shape-3"></span>
-                <span className="banner-one__shape-4"></span>
+    <section className="kaif-one banner-one" id="banner">
+      <span className="banner-one__shape-1"></span>
+      <span className="banner-one__shape-2"></span>
+      <span className="banner-one__shape-3"></span>
+      <span className="banner-one__shape-4"></span>
       <div className="container">
         <div className="kaif-one__carousel">
             <div className="kaif-one__single">
@@ -28,7 +27,6 @@ const Blog = () => {
             </div>
         </div>
       </div>
-      </section>
     </section>
   );
 };
