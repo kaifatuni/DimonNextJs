@@ -14,7 +14,7 @@ const NewsDetails = () => {
                         <div className="col-lg-8">
                             <div className="blog-one__single kaif-one__carousel">
                                 <div className="blog-one__image">
-                                    <img src="/assets/images/blog/blog-d-1-1.jpg" alt="" />
+                                    <img src="../public/assets/images/img1.jpg" alt="" />
 
                                 </div>
                                 <div className="blog-one__content">
@@ -65,7 +65,7 @@ const NewsDetails = () => {
                                 </div>
                             </div>
                             <div />
-                            <div className="kaif-first__carousel blog-details__kaif2">
+                            <div className="kaif-third__carousel blog-details__kaif2">
                             <div className="kaif-first">
                             <div className="share-block">
                             
@@ -82,7 +82,7 @@ const NewsDetails = () => {
                             </div>
                             </div>
                             </div>
-                            <div className="kaif-first__carousel blog-details__kaif">
+                            <div className="kaif-second__carousel blog-details__kaif">
                                 <div className="kaif-first">
                                     <div className="blog-details__author">
                                         <div className="blog-details__author-image">
@@ -180,6 +180,8 @@ const NewsDetails = () => {
                                             <button type="submit"><i className="fa fa-search"></i></button>
                                     </form>
                                 </div>
+                                <div className="kaif-second__carousel blog-details__kaif">
+                                <div className="kaif-first">
                                 <div className="sidebar__single sidebar__post">
                                     <h3 className="sidebar__title">Latest Posts</h3>
                                     <div className="sidebar__post-wrap">
@@ -215,6 +217,10 @@ const NewsDetails = () => {
                                         </div>
                                     </div>
                                 </div>
+                                </div>
+                                </div>
+                                <div className="kaif-third__carousel blog-details__kaif">
+                                <div className="kaif-first">
                                 <div className="sidebar__single sidebar__category">
                                     <h3 className="sidebar__title">Categories</h3>
                                     <ul className="sidebar__category-list">
@@ -230,6 +236,10 @@ const NewsDetails = () => {
                                         </li>
                                     </ul>
                                 </div>
+                                </div>
+                                </div>
+                                <div className="kaif-forth__carousel blog-details__kaif">
+                                <div className="kaif-first">                            
                                 <div className="sidebar__single sidebar__tags">
                                     <h3 className="sidebar__title">Tags</h3>
                                     <ul className="sidebar__tags-list">
@@ -241,6 +251,8 @@ const NewsDetails = () => {
                                         <li className="sidebar__tags-list-item"><a href="#">Professional,</a></li>
                                         <li className="sidebar__tags-list-item"><a href="#">Experience,</a></li>
                                     </ul>
+                                </div>
+                                </div>
                                 </div>
                             </div>
                         </div>
