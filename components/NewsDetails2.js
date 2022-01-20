@@ -2,6 +2,12 @@ import React from 'react';
 
 const NewsDetails = () => {
         return (
+            <section className="kaif-one banner-one" id="banner">
+            <span className="banner-one__shape-1"></span>
+            <span className="banner-one__shape-2"></span>
+            <span className="banner-one__shape-3"></span>
+            <span className="banner-one__shape-4"></span>
+
             <section className="blog-details">
                 <div className="container">
                     <div className="row">
@@ -240,6 +246,7 @@ const NewsDetails = () => {
                         </div>
                     </div>
                 </div>
+            </section>
             </section>
         )
 }
