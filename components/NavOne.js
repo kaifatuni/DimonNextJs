@@ -51,7 +51,7 @@ export default class NavOne extends Component {
                     <div className="container clearfix">
                         <div className="logo-box clearfix">
                             <a className="navbar-brand" href="/">
-                                <img src="/assets/images/resources/logo-dark.png" className="main-logo" width="119"
+                                <img src="/assets/images/resources/logo-dark.png" className="main-logo" width="200"
                                      alt="Awesome Image" />
                             </a>
                             <button className="menu-toggler">
@@ -75,10 +75,6 @@ export default class NavOne extends Component {
                                 </li>
                                 <li className="scrollToLink">
                                     <a href="#features">Features</a>
-
-                                </li>
-                                <li className="scrollToLink">
-                                    <a href="#video">Video</a>
 
                                 </li>
                                 <li className="scrollToLink">
