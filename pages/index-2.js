@@ -19,8 +19,8 @@ import Subscribe from "../components/Subscribe";
 
 const HomePageTwo = () => (
 
-    <Layout pageTitle="Dimon - Home 2">
-        <NavTwo />
+    <Layout pageTitle="MdKaif - Home 2">
+        {/* <NavTwo /> */}
         <BannerTwo />
         <Features />
         <Video />
@@ -34,7 +34,6 @@ const HomePageTwo = () => (
         <Faq />
         <NewsHome />
         <Subscribe />
-        <Footer />
     </Layout>
 
 )

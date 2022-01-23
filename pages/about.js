@@ -5,7 +5,8 @@ import Blog from "../components/Blog";
 
 export default function Custom404() {
     return (
-      <div>
+      <Layout pageTitle="Error!">
+        {/* <NavOne/> */}
         <section className="kaif-one banner-one" id="banner">
           <span className="banner-one__shape-1"></span>
           <span className="banner-one__shape-2"></span>
@@ -16,7 +17,7 @@ export default function Custom404() {
                 <div className="kaif-one__single">
                   <div className="kaif-one__inner">
                     <p>
-                      Support 404!!!!
+                      About!! Error 404!!!!
                     </p>
                     <h3>404</h3>
                     {/* <span></span>
@@ -29,6 +30,7 @@ export default function Custom404() {
             </div>
           </div>
         </section>
-      </div>
+        
+      </Layout>
     )
   }

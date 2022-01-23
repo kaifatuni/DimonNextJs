@@ -8,6 +8,7 @@ export default class NavOne extends Component {
           sticky: false
         };
     }
+    
     componentDidMount(){
         window.addEventListener('scroll', this.handleScroll);
 
@@ -74,26 +75,25 @@ export default class NavOne extends Component {
                                     </ul>
                                 </li>
                                 <li className="scrollToLink">
-                                    <a href="#features">Features</a>
-
+                                    <a href="/features">Features</a>
                                 </li>
                                 <li className="scrollToLink">
-                                    <a href="#pricing">Pricing</a>
+                                    <a href="/team">Team</a>
                                 </li>
                                 <li className="scrollToLink">
-                                    <a href="#screenshots">App Screenshots</a>
+                                    <a href="/">Blog</a>
                                 </li>
                                 <li className="scrollToLink">
-                                    <a href="#news">News</a>
+                                    <a href="/news">News</a>
                                     <ul className="sub-menu">
                                         <li><Link href="/news"><a>News</a></Link></li>
-                                        <li><Link href="/news-details"><a>News Details</a></Link></li>
+                                        <li><Link href="/"><a>News Details</a></Link></li>
                                     </ul>
                                 </li>
                             </ul>
                         </div>
                         <div className="right-side-box">
-                            <a className="thm-btn header__cta-btn" href="#"><span>Login</span></a>
+                            <a className="thm-btn header__cta-btn" href="/about"><span>About</span></a>
                         </div>
                     </div>
                 </nav>

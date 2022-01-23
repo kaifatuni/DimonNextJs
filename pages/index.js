@@ -10,11 +10,9 @@ import AA from "../components/AA";
 
 const HomePage = () => (
 
-    <Layout pageTitle="Dimon - React Next App Landing Page Template">
-        <NavOne />
+    <Layout pageTitle="Mohammad Kaif - Main">
         {/* <Banner2/> */}
         <NewsDetails />
-        <Footer />
     </Layout>
 
 )

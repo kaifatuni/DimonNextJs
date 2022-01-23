@@ -21,10 +21,10 @@ import Subscribe from "../components/Subscribe";
 
 const HomePage = () => (
 
-    <Layout pageTitle="Dimon - React Next App Landing Page Template">
-        <NavOne />
+    <Layout pageTitle="MdKaif - React Next App Landing Page Template">
+        {/* <NavOne /> */}
         <Blog />
-        <Footer />
+        
     </Layout>
 
 )

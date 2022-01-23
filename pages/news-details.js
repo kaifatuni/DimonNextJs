@@ -6,11 +6,9 @@ import Footer from "../components/Footer";
 
 const NewsDetailsPage = () => (
 
-    <Layout pageTitle="Dimon | News Details">
-        <NavOne />
+    <Layout pageTitle="MdKaif | News Details">
         <PageHeader title="News Details" />
         <NewsDetails />
-        <Footer />
     </Layout>
 
 )

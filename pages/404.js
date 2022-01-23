@@ -5,9 +5,8 @@ import Blog from "../components/Blog";
 
 export default function Custom404() {
     return (
-      <div>
-        <Layout/>
-        <NavOne/>
+      <Layout pageTitle="Error!">
+        {/* <NavOne/> */}
         <section className="kaif-one banner-one" id="banner">
           <span className="banner-one__shape-1"></span>
           <span className="banner-one__shape-2"></span>
@@ -31,7 +30,6 @@ export default function Custom404() {
             </div>
           </div>
         </section>
-        <Footer/>
-      </div>
+      </Layout>
     )
   }

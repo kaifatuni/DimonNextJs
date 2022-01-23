@@ -3,13 +3,19 @@ import Link from 'next/link';
 
 const News = () => {
         return (
+            <section className="kaif-one banner-one" id="banner">
+            <span className="banner-one__shape-1"></span>
+            <span className="banner-one__shape-2"></span>
+            <span className="banner-one__shape-3"></span>
+            <span className="banner-one__shape-4"></span>
+
             <section className="blog-one">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
-                            <div className="blog-one__single">
+                            <div className="blog-one__single service-one__single">
                                 <div className="blog-one__image">
-                                    <img src="/assets/images/blog/blog-1-1.jpg" alt="" />
+                                    <img src="/assets/images/img1.jpg" alt="" />
                                     <Link href="/news-details">
                                         <a className="blog-one__more-link"><i
                                             className="fa fa-link"></i>
@@ -35,9 +41,9 @@ const News = () => {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
-                            <div className="blog-one__single">
+                            <div className="blog-one__single service-one__single">
                                 <div className="blog-one__image">
-                                    <img src="/assets/images/blog/blog-1-2.jpg" alt="" />
+                                    <img src="/assets/images/img1.jpg" alt="" />
                                     <Link href="/news-details">
                                         <a className="blog-one__more-link"><i
                                             className="fa fa-link"></i>
@@ -64,9 +70,9 @@ const News = () => {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
-                            <div className="blog-one__single">
+                            <div className="blog-one__single service-one__single">
                                 <div className="blog-one__image">
-                                    <img src="/assets/images/blog/blog-1-3.jpg" alt="" />
+                                    <img src="/assets/images/img1.jpg" alt="" />
                                     <Link href="/news-details">
                                         <a className="blog-one__more-link"><i
                                             className="fa fa-link"></i>
@@ -93,9 +99,9 @@ const News = () => {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
-                            <div className="blog-one__single">
+                            <div className="blog-one__single service-one__single">
                                 <div className="blog-one__image">
-                                    <img src="/assets/images/blog/blog-1-4.jpg" alt="" />
+                                    <img src="/assets/images/img1.jpg" alt="" />
                                     <Link href="/news-details">
                                         <a className="blog-one__more-link"><i
                                             className="fa fa-link"></i>
@@ -121,9 +127,9 @@ const News = () => {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
-                            <div className="blog-one__single">
+                            <div className="blog-one__single service-one__single">
                                 <div className="blog-one__image">
-                                    <img src="/assets/images/blog/blog-1-5.jpg" alt="" />
+                                    <img src="/assets/images/img1.jpg" alt="" />
                                     <Link href="/news-details">
                                         <a className="blog-one__more-link"><i
                                             className="fa fa-link"></i>
@@ -150,9 +156,9 @@ const News = () => {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
-                            <div className="blog-one__single">
+                            <div className="blog-one__single service-one__single">
                                 <div className="blog-one__image">
-                                    <img src="/assets/images/blog/blog-1-6.jpg" alt="" />
+                                    <img src="/assets/images/img1.jpg" alt="" />
                                     <Link href="/news-details">
                                         <a className="blog-one__more-link"><i
                                             className="fa fa-link"></i>
@@ -187,6 +193,7 @@ const News = () => {
                         <a href="#"><i className="fa fa-angle-double-right"></i></a>
                     </div>
                 </div>
+            </section>
             </section>
         )
 }
