@@ -14,7 +14,7 @@ const NewsDetails = () => {
                         <div className="col-lg-8">
                             <div className="blog-one__single service-one__single">
                                 <div className="blog-one__image">
-                                    <img src="../public/assets/images/img1.jpg" alt="" />
+                                    <img src="/assets/images/img1.jpg" alt="" />
 
                                 </div>
                                 <div className="blog-one__content">

@@ -2600,6 +2600,7 @@ a:visited {
 .service-one__single {
   border-style: solid;
   border-width: 1px;
+  background-color: #fff;
   border-color: #efefef;
   border-radius: 5px;
   padding: 2px;
