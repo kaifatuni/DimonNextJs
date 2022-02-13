@@ -62,29 +62,29 @@ export default class NavOne extends Component {
                         <div className="main-navigation">
                             <ul className=" one-page-scroll-menu navigation-box">
                                 <li className="current scrollToLink">
-                                    <a href="/">Home</a>
+                                    <Link href="/"><a>Home</a></Link>
                                     <ul className="sub-menu">
-                                        <li><a href="/">Home 01</a></li>
-                                        <li><a href="/index-2">Home 02</a></li>
+                                        <li><Link href="/"><a>Home 01</a></Link></li>
+                                        <li><Link href="/index-2"><a>Home 02</a></Link></li>
                                         <li><a href="#">Header Versions</a>
                                             <ul className="sub-menu">
-                                                <li><a href="/">Header 01</a></li>
-                                                <li><a href="/index-2">Header 02</a></li>
+                                                <li><Link href="/"><a>Header 01</a></Link></li>
+                                                <li><Link href="/index-2"><a>Header 02</a></Link></li>
                                             </ul>
                                         </li>
                                     </ul>
                                 </li>
                                 <li className="scrollToLink">
-                                    <a href="/features">Features</a>
+                                    <Link href="/features"><a>Features</a></Link>
                                 </li>
                                 <li className="scrollToLink">
-                                    <a href="/team">Team</a>
+                                    <Link href="/team"><a>Team</a></Link>
                                 </li>
                                 <li className="scrollToLink">
-                                    <a href="/">Blog</a>
+                                    <Link href="/"><a>Blog</a></Link>
                                 </li>
                                 <li className="scrollToLink">
-                                    <a href="/news">News</a>
+                                    <Link href="/news"><a>News</a></Link>
                                     <ul className="sub-menu">
                                         <li><Link href="/news"><a>News</a></Link></li>
                                         <li><Link href="/"><a>News Details</a></Link></li>
